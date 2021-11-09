@@ -72,7 +72,7 @@
   },
 { 
       "id": 9,
-      "type": "multi_text",
+      "type": "true_false",
       "question": "A honeypot is a sacrificial host with deliberately insecure services deployed at the edges of a network to act as bait for potential hacking attacks.",
       "answer": "true",
       "choices": ["true", "false"],
