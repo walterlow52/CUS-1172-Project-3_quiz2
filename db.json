@@ -6,7 +6,7 @@
     "question": "Which hackers are considered hostile?.",
     "answer": ["Black-hat", "Cracker"],
     "choices": ["White-hat", "Black-hat", "Gray-hat", "Cracker"],
-    "feedback": "White-hat hackers are professionals who hack with authorization in order to identify weaknesses in a program. A black-hat hacker hacks to break IT security and gain access to systems without authorization for their own purposes. A gray-hat hacker contains average abilities who can probably be a black-hat or white-hat hacker in the future. A cracker possesses sophisticated skills and are the biggest threats for networks and resources.",
+    "feedback": "White-hat hackers are professionals who hack with authorization in order to identify weaknesses in a program. A black-hat hacker hacks to break IT security and gain access to systems without authorization for their own purposes. A gray-hat hacker contains average abilities who can probably be a black-hat or white-hat hacker in the future. A cracker possesses sophisticated skills and are the biggest threats for networks and resources."
   },
 {
       "id": 2,
