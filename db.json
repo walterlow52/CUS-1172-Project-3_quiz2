@@ -3,10 +3,10 @@
 {
     "id": 1,
     "type": "checkbox",
-    "question": "Eclipse is an IDE for Java.",
-    "answer": "true",
-    "choices": ["true", "false"],
-    "feedback": "Eclipse is one of the most well known IDEs not only for Java but for other familiar languages like C, C++, PHP, Ruby, etc."
+    "question": "Which hackers are considered hostile?.",
+    "answer": ["Black-hat", "Cracker"],
+    "choices": ["White-hat", "Black-hat", "Gray-hat", "Cracker"],
+    "feedback": "White-hat hackers are professionals who hack with authorization in order to identify weaknesses in a program. A black-hat hacker hacks to break IT security and gain access to systems without authorization for their own purposes. A gray-hat hacker contains average abilities who can probably be a black-hat or white-hat hacker in the future. A cracker possesses sophisticated skills and are the biggest threats for networks and resources.",
   },
 {
       "id": 2,
@@ -19,61 +19,64 @@
 { 
       "id": 3,
       "type": "multi_text",
-      "questionOne": "The two main types of malware are ___ ",
+      "questionOne": "RPO stands for ",
+      "questionTwo": "and RTO stands for ",
+      "questionThree": ".",
+      "answer": ["Recovery Point Objective", "Recovery Time Objective"],
+      "choices": "answer_to_question",
+      "choices2": "answer_to_question",
+      "feedback": "RPO stands for Recovery Point Objective. It is the maximum amount of data loss that is acceptable. RTO stands for Recovery Time Objective. It is the maximum allowable time to recover the function."
+  },
+{
+    "id": 4,
+    "type": "MC",
+    "question": "Which of the following is a type of injection?",
+    "answer": "All of the above",
+    "choices": ["SQL", "XML", "LDAP", "All of the above"],
+    "feedback": "All of these are types of injection techniques that are popular in malware development. SQL injections are used to attack applations using SQL statements. XML injections are used to manipulate the logic of an XML. LDAP injections exploits websites that constructs LDAP based on user input."
+  },
+{
+    "id": 5,
+    "type": "MC",
+    "question": "Which malware uses robots to launch attacks?",
+    "answer": "botnets",
+    "choices": ["virus", "worm", "botnets", "trojan horse"],
+    "feedback": "Botnets are robotically controlled networks created by hacking groups (bot-herders) to attack vulnerable machines."
+  },
+{
+    "id": 6,
+    "type": "checkbox",
+    "question": "Which domains don't experience unauthorized access as a common threat?",
+    "answer": ["User", "WAN"],
+    "choices": ["User", "Workstation", "LAN", "LAN-to-WAN", "WAN", "Remote Access", "System/Application"],
+    "feedback": "User domains and WAN domains can't be breached through unauthorized access since WANs are accessible to most users and user domains can be breached."
+  },
+{
+    "id": 7,
+    "type": "MC",
+    "question": "A plan that contains the actions needed to keep critical business processes running after a disruption is called ___.",
+    "answer": "Business Continuity Plan (BCP)",
+    "choices": ["Disaster Recovery Plan (DRP)", "Business Impact Analysis (BIA)", "Business Continuity Plan (BCP)", "none of the above"],
+    "feedback": "Business Continuity Plans are plans that handles how to deal with outages in IT systems, applications, and data and continue business operations."
+},
+{ 
+      "id": 8,
+      "type": "multi_text",
+      "questionOne": "The two main types of malware are ",
       "questionTwo": "and ",
-      "questionThree": "___.",
+      "questionThree": ".",
       "answer": ["viruses", "worms"],
       "choices": "answer_to_question",
       "choices2": "answer_to_question",
       "feedback": "Malware exists in two main categories: infecting and hiding programs. Malware of this type includes viruses and worms."
   },
-{
-    "id": 4,
-    "type": "MC",
-    "question": "What is the purpose of CSS?",
-    "answer": "To style an HTML webpage",
-    "choices": ["To brag to someone that you know CSS", "To store values throughout the HTML webpage", "To style an HTML webpage", "All of the above"],
-    "feedback": "CSS (Cascading Style Sheets) is one of the methods that can be used to style an HTML page. (You can brag to someone that you know CSS, but that's not the purpose and Javascript is an effective way to store values for an HTML page)."
-  },
-{
-    "id": 5,
-    "type": "MC",
-    "question": "How do you link a Javascript file into an HTML project? (please choose the corresponding line of code)",
-    "answer": "<script src = \"JavaScript.js\"> </script>",
-    "choices": ["<script src = \"JavaScript.js\">", "<script src = \"JavaScript.js\"> </script>", "<script src = \"JavaScript.js\" </script>", "<script src = Javascript.js> </script>"],
-    "feedback": "The correct way to link a Javascript file into an HTML project is through the line of code \"script src = \"JavaScript.js\"> </script>\". (One of the choices is missing an end tag, another is missing a \">\", and one is missing quotation marks around Javascript.js)."
-  },
-{
-    "id": 6,
-    "type": "true_false",
-    "question": "Bootstrap is an effective way of styling an HTML webpage.",
-    "answer": "true",
-    "choices": ["true", "false"],
-    "feedback": "Bootstrap is one of the known methods for styling a HTML webpage. Check \"https://www.w3schools.com/bootstrap4/default.asp\" for different ways to style HTML elements in Bootstrap 4."
-  },
-{
-    "id": 7,
-    "type": "MC",
-    "question": "The SQL programming language focuses on: ",
-    "answer": "databases",
-    "choices": ["databases", "styling", "development", "none of the above"],
-    "feedback": "SQL (Structured Query Language) mainly focuses on the management and communication of databases. (CSS & Bootstrap focuses on styling while HTML focuses on development)."
-  },
-{
-    "id": 8,
-    "type": "true_false",
-    "question": "Tableau allows the user to create a 3D representation of a certain dataset.",
-    "answer": "true",
-    "choices": ["true", "false"],
-    "feedback": "Tableau allows the user to visualize and understand better. The user can choose a data file (like Excel) and link it to Tableau to create a visual representation of the data. (The user can choose to make it 3D later on while editing)."
-  },
-{
-    "id": 9,
-    "type": "MC",
-    "question": "What are the data types that displays whole number values in Java?",
-    "answer": "int",
-    "choices": ["int", "double", "string", "boolean"],
-    "feedback": "The data type \"int\" stores whole number values in Java. (Double stores decimal values, String stores word values, and boolean stores true/false values)."
+{ 
+      "id": 9,
+      "type": "multi_text",
+      "question": "A honeypot is a sacrificial host with deliberately insecure services deployed at the edges of a network to act as bait for potential hacking attacks.",
+      "answer": "true",
+      "choices": ["true", "false"],
+      "feedback": "Malware exists in two main categories: infecting and hiding programs. Malware of this type includes viruses and worms."
   },
  {
     "id": 10,
@@ -86,10 +89,10 @@
  {
     "id": 11,
     "type": "true_false",
-    "question": "Python is a high level, interpreted, interactive, and object-oriented scripting language.",
+    "question": "Cryptography is the practice of hiding information.",
     "answer": "true",
     "choices": ["true", "false"],
-    "feedback": "Python is a well known programming language used to buid websites & software while automating tasks and conduct data analysis."
+    "feedback": "Cryptography is often used in businesses for personal transactions since it has the ability to hide user information like their credit card information to keep their information secure from outside sources."
   },
 {
     "id": 12,
@@ -125,51 +128,49 @@
 },
 {
     "id": 16,
-    "type" : "text",
-    "question" : "Type the HTML snippet that links a CSS file to an HTML file (name the CSS file \"CSS_styling.css\"): ",
-    "answer" : "<link rel=\"stylesheet\" href=\"CSS_styling.css\">",
-    "choices" : "answer_to_question",
-    "feedback": "In order to link a CSS file with an HTML file, you must use \"<link rel=\"stylesheet\" href=\"CSS_styling.css\">."
+    "type" : "MC",
+    "question" : "Which of the following are challenges to access controls?",
+    "answer" : "all of the above",
+    "choices" : ["laptop loss", "exploiting hardware/applications", "eavesdropping", "all of the above"],
+    "feedback": "All of these choices can compromise access controls. Laptops are a physical access control that can affect the owner if they lose it. Exploiting hardware/applications are logical access controls that can be compromised by hostile users. Eavesdroping can also affect logical access controls (i.e. when someone overhears another give out classified information like passwords, etc)."
 },
 {
     "id": 17,
     "type" : "text",
-    "question" : "How many times does this loop run?    int i = 0;  while (i < 10) {  System.out.println(i);  i++;  }",
-    "answer" : "10",
+    "question" : "__ is a program/hardware device that inspects network traffic and has the ability to permit/deny trafic based on the configuration rules.",
+    "answer" : "Firewalls",
     "choices" : "answer_to_question",
-    "feedback": "This while loop prints out the value of \"i\" each time it runs. Before the loop, an int variable \"i\" is set equal to 0. Once the loop starts, a condition is stated that the loop will repeatedly print \"i\" until i reaches 10, then the loop will stop runnning."
+    "feedback": "Firewalls serves the purpose to inspecting network traffic and are known to be effective countermeasures to network threats."
 },
 {
     "id": 18,
-    "type" : "text",
-    "question" : "What SQL command allows the user to create a new database? (type the command in all caps)",
-    "answer" : "CREATE DATABASE",
-    "choices" : "answer_to_question",
-    "feedback": "To start an SQL file, you must first create a database. That can be done by using the \"CREATE DATABASE\" command."
+    "type" : "true_false",
+    "question" : "The Internet is an open, public network shared by the entire planet. Anyone can connect to the Internet with a computer and a valid Internet connection and browser.",
+    "answer" : "true",
+    "choices" : ["true", "false"],
+    "feedback": "The Internet is accessible to anyone who can connect to the network."
 },
-{
-    "id": 19,
-    "type" : "text",
-    "question" : "Which version of Bootstrap have we been using throughout this class? (type in the number)",
-    "answer" : "4",
-    "choices" : "answer_to_question",
-    "feedback": "Throughout the projects we've been doing in this class that uses Bootstrap, we use Version 4.3.1."
-},
-{
-    "id": 20,
-    "type" : "text",
-    "question" : "Find the index of \"BMW\" in the array: [\"MINI\", \"Mercedes-Benz\", \"Audi\", \"Chevrolet\", \"Ford\", \"BMW\", \"Fiat\", \"Dodge\"]",
-    "answer" : "5",
-    "choices" : "answer_to_question",
-    "feedback": "Remember, when dealing with arrays, the index always starts at 0. Therefore, index 0 is MINI, 1 is Mercedes-Benz, 2 is Audi, 3 is Chevrolet, 4 is Ford, and index 5 contains \"BMW\""
-},
-{
-    "id": 21,
-    "type" : "text",
-    "question" : "What is the maximum amount of columns that the Bootstrap 4 grid system allows? (type in the number)",
-    "answer" : "12",
-    "choices" : "answer_to_question",
-    "feedback": "The Bootstrap's grid system allows up to 12 columns across the page. If the user doesn't want to use all 12 columns at once, they can split the columns into a 6 by 6, 4 by 8, 4 by 4 by 4, or by spans of 1."
-}
+{ 
+      "id": 19,
+      "type": "multi_text",
+      "questionOne": "The two types of access controls are ",
+      "questionTwo": "and ",
+      "questionThree": ".",
+      "answer": ["Physical", "Logical"],
+      "choices": "answer_to_question",
+      "choices2": "answer_to_question",
+      "feedback": "Physical access controls are physical resources like buildings, parking lots, and protected areas. Logical access controls are components of a computer system/network like usernames, and passwords."
+  },
+{ 
+      "id": 20,
+      "type": "multi_text",
+      "questionOne": "LAN stands for ",
+      "questionTwo": ". WAN stands for ",
+      "questionThree": ".",
+      "answer": ["Local Area Network", "Wide Area Network"],
+      "choices": "answer_to_question",
+      "choices2": "answer_to_question",
+      "feedback": "LAN stands for Local Area Network. LANs are a collection of computers that are conncected to one another. WAN stands for Wide Area Network. WANs are networks that extends over a large geographic area, connecting multiple LANs."
+  }
  ]
 }
