@@ -2,7 +2,7 @@
       "questions2": [
 {
     "id": 1,
-    "type": "true_false",
+    "type": "checkbox",
     "question": "Eclipse is an IDE for Java.",
     "answer": "true",
     "choices": ["true", "false"],
@@ -18,11 +18,14 @@
   },
 { 
       "id": 3,
-      "type": "MC",
-      "question": "What does HTML stand for?",
-      "answer": "Hypertext Markup Language",
-      "choices": ["Highlight Machine Language", "Hightext Machine Language", "Hypertext Makeup Language", "Hypertext Markup Language"],
-      "feedback": "HTML stands for Hypertext Markup Language which was created by Tim Berners-Lee. (The other choices are made-up)"
+      "type": "multi_text",
+      "questionOne": "The two main types of malware are ___ ",
+      "questionTwo": "and ",
+      "questionThree": "___.",
+      "answer": ["viruses", "worms"],
+      "choices": "answer_to_question",
+      "choices2": "answer_to_question",
+      "feedback": "Malware exists in two main categories: infecting and hiding programs. Malware of this type includes viruses and worms."
   },
 {
     "id": 4,
