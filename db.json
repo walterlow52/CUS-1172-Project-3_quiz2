@@ -48,7 +48,7 @@
     "type": "checkbox",
     "question": "Which domains don't experience unauthorized access as a common threat?",
     "answer": ["User", "WAN"],
-    "choices": ["User", "Workstation", "LAN", "LAN-to-WAN", "WAN", "Remote Access", "System/Application"],
+    "choices": ["User", "Workstation", "LAN", "WAN"],
     "feedback": "User domains and WAN domains can't be breached through unauthorized access since WANs are accessible to most users and user domains can be breached."
   },
 {
