@@ -83,7 +83,7 @@
     "type": "checkbox",
     "question": "Which U.S. compliance laws for information security systems were passed in 2002?",
     "answer": ["Federal Information Security Management Act (FISMA)", "Sarbanes-Oxley Act (SOX)"], 
-    "choices": ["Federal Information Security Management Act (FISMA)", "Gramm-Leach-Bliley Act (GLBA)", "Children's Internet Protection Act (CIPA)", "Health Insurance Portability and Accountability Act (HIPAA)", "Sarbanes-Oxley Act (SOX)"],
+    "choices": ["Federal Information Security Management Act (FISMA)", "Gramm-Leach-Bliley Act (GLBA)", "Children's Internet Protection Act (CIPA)", "Sarbanes-Oxley Act (SOX)"],
     "feedback": "FISMA & SOX were passed in 2002, but they updated FISMA in 2014 with the \"Federal Information Security Modernization Act\". CIPA was passed in 2000 and was updated in 2011. GLBA was passed in 1999 and HIPAA was passed in 1996." 
   },
  {
