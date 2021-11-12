@@ -11,21 +11,18 @@
 {
       "id": 2,
       "type": "MC",
-      "question": "What are the tenets of information systems security??", 
+      "question": "What are the tenets of information systems security?", 
       "answer": "All of the above",
       "choices": ["Confidentiality", "Integrity", "Availability", "All of the above"],
       "feedback": "Confidentiality is when only authorized users can view information. Integrity is when only authorized users can change information. Availability is when information is accessible by authorized users when they request for such information. All these components are essential and are all classified as tenets of information systems security." 
   },
 { 
       "id": 3,
-      "type": "multi_text",
-      "questionOne": "RPO stands for ",
-      "questionTwo": "and RTO stands for ",
-      "questionThree": ".",
-      "answer": ["Recovery Point Objective", "Recovery Time Objective"],
-      "choices": "answer_to_question",
-      "choices2": "answer_to_question",
-      "feedback": "RPO stands for Recovery Point Objective. It is the maximum amount of data loss that is acceptable. RTO stands for Recovery Time Objective. It is the maximum allowable time to recover the function."
+      "type": "list",
+      "question": "Which of the following solutions are used for authenticating a user to gain access to systems, applications, and data?",
+      "answer": "all of the above",
+      "choices": ["Passwords/PINS", "Smart Cards/Tokens", "Digital Certificates", "all of the above"],
+      "feedback": "All are possible solutions for authenticating a user to have access to certain resources. Different websites will ask for certain ways for a user to authenticate themselves, but the most common way are through passwords and/or PINS."
   },
 {
     "id": 4,
