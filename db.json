@@ -58,14 +58,11 @@
 },
 { 
       "id": 8,
-      "type": "multi_text",
-      "questionOne": "The two main types of malware are ",
-      "questionTwo": "and ",
-      "questionThree": ".",
-      "answer": ["viruses", "worms"],
-      "choices": "answer_to_question",
-      "choices2": "answer_to_question",
-      "feedback": "Malware exists in two main categories: infecting and hiding programs. Malware of this type includes viruses and worms."
+      "type": "list",
+      "question": "Which type of malware can self replicate and spread from device to device?",
+      "answer": "worms",
+      "choices": ["virus", "worms", "trojan horses", "botnets"],
+      "feedback": "Worms are self-replicating pieces of malicious software that can spread from device to device."
   },
 { 
       "id": 9,
@@ -149,25 +146,19 @@
 },
 { 
       "id": 19,
-      "type": "multi_text",
-      "questionOne": "The two types of access controls are ",
-      "questionTwo": "and ",
-      "questionThree": ".",
-      "answer": ["Physical", "Logical"],
-      "choices": "answer_to_question",
-      "choices2": "answer_to_question",
-      "feedback": "Physical access controls are physical resources like buildings, parking lots, and protected areas. Logical access controls are components of a computer system/network like usernames, and passwords."
+      "type": "list",
+      "question": "Which type of attack tricks a user into providing personal information by masquerading as a legitimate website?",
+      "answer": "Phishing",
+      "choices": ["Phreaking", "Phishing", "Trolling", "Keystroke logging"],
+      "feedback": "Phishing is a type of fraud in which an attacker attempts to trick the victim into providing private information."
   },
 { 
       "id": 20,
-      "type": "multi_text",
-      "questionOne": "LAN stands for ",
-      "questionTwo": ". WAN stands for ",
-      "questionThree": ".",
-      "answer": ["Local Area Network", "Wide Area Network"],
-      "choices": "answer_to_question",
-      "choices2": "answer_to_question",
-      "feedback": "LAN stands for Local Area Network. LANs are a collection of computers that are conncected to one another. WAN stands for Wide Area Network. WANs are networks that extends over a large geographic area, connecting multiple LANs."
+      "type": "list",
+      "question": "Which network is used for encrypting IP packets from one end to another, as in a tunnel?",
+      "answer": "Virtual Private Network (VPN)",
+      "choices": ["Local Area Network (LAN)", "Wide Area Network (WAN)", "Virtual Private Network (VPN)", "Virtual LAN"],
+      "feedback": "A virtual private network is used for encryption of IP packets."
   }
  ]
 }
