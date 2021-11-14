@@ -131,8 +131,8 @@
 {
     "id": 17,
     "type" : "text",
-    "question" : "__ is a program/hardware device that inspects network traffic and has the ability to permit/deny trafic based on the configuration rules.",
-    "answer" : "Firewalls",
+    "question" : "__(s) is a program/hardware device that inspects network traffic and has the ability to permit/deny trafic based on the configuration rules.",
+    "answer" : "Firewall",
     "choices" : "answer_to_question",
     "feedback": "Firewalls serves the purpose to inspecting network traffic and are known to be effective countermeasures to network threats."
 },
